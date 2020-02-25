@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Landing from './landingpage';
 
 
 class Resume extends Component{

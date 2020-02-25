@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import {Layout, Header, Navigation, Drawer, Content} from 'react-mdl';
 import Main from './components/main';
@@ -7,9 +6,9 @@ import { Link } from 'react-router-dom'
 
 function App() {
   return (
-    <div>
-        <Layout style={{height: '300px', position: 'relative', background: 'url(http://www.getmdl.io/assets/demos/transparent.jpg) center / cover'}}>
-            <Header transparent title="Title" style={{color: 'white'}}>
+    <div className="demo-big-content">
+        <Layout>
+            <Header className="header-color" title="My Portfolio" scroll>
                 <Navigation>
                     <Link to="/aboutme">About Me</Link>
                     <Link to="/resume">Resume</Link>
@@ -17,7 +16,7 @@ function App() {
                     <Link to="/contact">Contact</Link>
                 </Navigation>
             </Header>
-            <Drawer title="Title">
+            <Drawer title="My Portfolio">
                 <Navigation>
                     <Link to="/aboutme">About Me</Link>
                     <Link to="/resume">Resume</Link>
@@ -25,11 +24,12 @@ function App() {
                     <Link to="/contact">Contact</Link>
                 </Navigation>
             </Drawer>
+            <Content>
+                <Main/>
+            </Content>
         </Layout>
-        <Content>
-          <Main/>
-        </Content>
     </div>
+
   );
 }
 
