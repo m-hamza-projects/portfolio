@@ -1,0 +1,38 @@
+
+.landingpage-content{
+  text-align: center;
+  padding: 7em;
+}
+
+.landingpage-content h1{
+  color: white;
+  font-family: 'Amiko';
+}
+
+.landingpage-content h3{
+  color: white;
+  padding: 0.35em;
+  font-family: 'Amiko';
+}
+
+.landingpage-content p{
+  color: white;
+  padding: 2em;
+  letter-spacing: 0.5px;
+  font-size: 15px;
+  padding-left: 50px;
+}
+
+.social-links{
+  color: white;
+  letter-spacing: 30px;
+  font-size: 15px;
+  padding-left: 30px;
+
+}
+
+.social-links i{
+  color: white;
+  font-size: 40px;
+
+}
