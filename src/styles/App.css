@@ -60,24 +60,9 @@
   font-size: 5em;
   padding: 10px;
 } */
-
-
 html {
   background: url("../res/darkwood.jpg") no-repeat center center fixed;
   background-size: cover;
-}
-
-.navigation{
-  text-align: center;
-  padding: 1em;
-}
-
-.navLink{
-  color: white;
-  width: 50%;
-  letter-spacing: 0.2em;
-  text-decoration: none;
-  padding: 3em;
 }
 
 .line{
@@ -85,4 +70,39 @@ html {
   height: 1px;
   background: linear-gradient(to right, rgb(0, 0, 0), rgb(255, 255, 255), rgb(0, 0, 0));
   background: -moz-linear-gradient(to right, rgb(0, 0, 0), rgb(255, 255, 255), rgb(0, 0, 0));
+}
+
+
+@media only screen and (max-width: 600px) {
+
+  .navigation{
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+
+  }
+
+  .navLink{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Amiko';
+  }
+}
+
+@media only screen and (min-width: 800px) {
+
+  .navigation{
+    text-align: center;
+    padding: 1em;
+  }
+
+  .navLink{
+    color: white;
+    width: 50%;
+    letter-spacing: 0.2em;
+    text-decoration: none;
+    padding: 3em;
+  }
+
 }

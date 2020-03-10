@@ -1,38 +1,86 @@
+@media only screen and (max-width: 600px) {
 
-.landingpage-content{
-  text-align: center;
-  padding: 7em;
+  .landingpage-content{
+    text-align: center;
+    width: 100%;
+    margin: auto;
+  }
+
+  .landingpage-content h1{
+    color: white;
+    font-size: 30px;
+    font-family: 'Amiko';
+
+  }
+
+  .landingpage-content h3{
+    color: white;
+    font-size: 15px;
+    font-family: 'Amiko';
+  }
+
+  .landingpage-content p{
+    color: white;
+    font-size: 12px;
+    width: 80%;
+    margin: auto;
+  }
+
+  .social-links{
+    color: white;
+    letter-spacing: 30px;
+    font-size: 15px;
+    padding-left: 30px;
+
+  }
+
+  .social-links i{
+    color: white;
+    font-size: 40px;
+    margin-top: 25px;
+  }
 }
 
-.landingpage-content h1{
-  color: white;
-  font-family: 'Amiko';
-}
+@media only screen and (min-width: 800px) {
 
-.landingpage-content h3{
-  color: white;
-  padding: 0.35em;
-  font-family: 'Amiko';
-}
+  .landingpage-content{
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    padding: 7em;
+  }
 
-.landingpage-content p{
-  color: white;
-  padding: 2em;
-  letter-spacing: 0.5px;
-  font-size: 15px;
-  padding-left: 50px;
-}
+  .landingpage-content h1{
+    color: white;
+    font-family: 'Amiko';
+  }
 
-.social-links{
-  color: white;
-  letter-spacing: 30px;
-  font-size: 15px;
-  padding-left: 30px;
+  .landingpage-content h3{
+    color: white;
+    padding: 0.35em;
+    font-family: 'Amiko';
+  }
 
-}
+  .landingpage-content p{
+    color: white;
+    padding: 2em;
+    letter-spacing: 0.5px;
+    font-size: 15px;
+    padding-left: 50px;
+  }
 
-.social-links i{
-  color: white;
-  font-size: 40px;
+  .social-links{
+    color: white;
+    letter-spacing: 30px;
+    font-size: 15px;
+    padding-left: 30px;
+
+  }
+
+  .social-links i{
+    color: white;
+    font-size: 40px;
+
+  }
 
 }

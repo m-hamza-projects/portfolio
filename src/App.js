@@ -9,11 +9,11 @@ function App() {
   return (
     <div className="layout">
       <div className="navigation">
-        <Link className="navLink" to="/">Home</Link>
-        <Link className="navLink" to="/aboutme">About Me</Link>
-        <Link className="navLink" to="/resume">Resume</Link>
-        <Link className="navLink" to="/projects">Projects</Link>
-        <Link className="navLink" to="/contact">Contact</Link>
+        <Link className="navLink" to="/">Home &ensp;</Link>
+        <Link className="navLink" to="/aboutme">About Me &ensp;</Link>
+        <Link className="navLink" to="/resume">Resume &ensp;</Link>
+        <Link className="navLink" to="/projects">Projects &ensp;</Link>
+        <Link className="navLink" to="/contact">Contact &ensp;</Link>
         <hr className="line"/>
       </div>
       <Main/>
