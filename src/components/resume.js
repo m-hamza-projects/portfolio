@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import '../styles/resume.css'
-import mhamzaResume from '../res/mhamza_resume.pdf'
+import '../styles/resume.css';
+import mhamzaResume from '../res/mhamza_resume.pdf';
 
 class Resume extends Component{
 
@@ -11,13 +11,13 @@ class Resume extends Component{
         <div className="download-link">
           <a href={mhamzaResume} download="Mohammad Hamza Resume.pdf">
             Download resume in PDF &ensp;
-            <i class="fa fa-download" aria-hidden="true"></i>
+            <i className="fa fa-download" aria-hidden="true"></i>
           </a>
         </div>
         <h4>Education</h4>
 
         <div className="uleth-background">
-          <p className="uleth">
+          <div className="uleth">
           Bachelor of Science | Sept 2016 - Aug 2019 | University of Lethbridge | Lethbridge, AB
           <ul>
             <li>Major: Computer Science</li>
@@ -25,11 +25,11 @@ class Resume extends Component{
             Computer Graphics (OpenGL), Network Communications, Data processing, Programming Languages, New Media,
             Academic Writing, Management, and Economics.</li>
           </ul>
-          </p>
+          </div>
         </div>
 
         <div className="sait-background">
-          <p className="sait">
+          <div className="sait">
           Information Technology - Diploma | Sept 2014 - Apr 2016 | SAIT | Calgary, AB
           <ul>
             <li>
@@ -41,7 +41,7 @@ class Resume extends Component{
               Interface Design, and Business Dynamics.
             </li>
           </ul>
-          </p>
+          </div>
         </div>
 
         <h4>Skills</h4>
@@ -49,33 +49,35 @@ class Resume extends Component{
         <div className="skills-background">
           <div className="col">
             <table>
-              <tr>
-                <td><ul><li>Java</li></ul></td>
-                <td><ul><li>Git version control</li></ul></td>
-                <td><ul><li>Software Development Life Cycle</li></ul></td>
-              </tr>
-              <tr>
-                <td><ul><li>Python</li></ul></td>
-                <td><ul><li>HTML/CSS/JSP/Servlet</li></ul></td>
-                <td><ul><li>Linux</li></ul></td>
-              </tr>
-              <tr>
-                <td><ul><li>C++</li></ul></td>
-                <td><ul><li>JavaScript/React</li></ul></td>
-                <td><ul><li>JIRA/Bitbucket</li></ul></td>
-              </tr>
-              <tr>
-                <td><ul><li>SQL/MySQL</li></ul></td>
-                <td><ul><li>PHP</li></ul></td>
-                <td><ul><li>Perl</li></ul></td>
-              </tr>
+              <tbody>
+                <tr>
+                  <td><ul><li>Java</li></ul></td>
+                  <td><ul><li>Git version control</li></ul></td>
+                  <td><ul><li>Software Development Life Cycle</li></ul></td>
+                </tr>
+                <tr>
+                  <td><ul><li>Python</li></ul></td>
+                  <td><ul><li>HTML/CSS/JSP/Servlet</li></ul></td>
+                  <td><ul><li>Linux</li></ul></td>
+                </tr>
+                <tr>
+                  <td><ul><li>C++</li></ul></td>
+                  <td><ul><li>JavaScript/React</li></ul></td>
+                  <td><ul><li>JIRA/Bitbucket</li></ul></td>
+                </tr>
+                <tr>
+                  <td><ul><li>SQL/MySQL</li></ul></td>
+                  <td><ul><li>PHP</li></ul></td>
+                  <td><ul><li>Perl</li></ul></td>
+                </tr>
+                </tbody>
             </table>
           </div>
         </div>
 
         <h4>Experience</h4>
         <div className="csa-background">
-          <p className="csa">
+          <div className="csa">
           Satellite Operations Developer - Student | Canadian Space Agency | May 2019 - Aug 2019 | St-Hubert, QC
           <ul>
             <li>
@@ -88,11 +90,11 @@ class Resume extends Component{
               Performed maintenance on Perl and Java programs used to support satellite operations
             </li>
           </ul>
-          </p>
+          </div>
         </div>
 
         <div className="bb-background">
-          <p className="bb">
+          <div className="bb">
           Beta Software Test - Student | Blackberry | Sept 2017 - Aug 2018 | Waterloo, ON
           <ul>
             <li>
@@ -110,11 +112,11 @@ class Resume extends Component{
               Collaborated with Project Managers and internal stakeholders to identify critical issues
             </li>
           </ul>
-          </p>
+          </div>
         </div>
 
         <div className="ap-background">
-          <p className="ap">
+          <div className="ap">
           Capstone Project Team Leader and Developer | Aspen Properties | Sept 2015 - Apr 2016 | Calgary, AB
           <ul>
             <li>
@@ -130,7 +132,7 @@ class Resume extends Component{
               and backend with MVC framework using Java along with SQL database for data persistence.
             </li>
           </ul>
-          </p>
+          </div>
         </div>
 
       </div>

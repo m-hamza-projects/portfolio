@@ -1,18 +1,59 @@
-.mhamza-image{
-  width: 40%;
-}
+@media only screen and (max-width: 600px) {
 
-.aboutme{
-  text-align: center;
-  margin-left: 70px;
-  margin-right: 70px;
-}
+  .image-mhamza{
+    width: 100%;
+    margin: auto;
+  }
 
-.aboutme h1{
-  color: white;
-  font-size: 30px;
-}
+  .mhamza-image{
+    width: 70%;
+  }
 
-td{
+  .aboutme{
+    text-align: center;
+  }
+
+  .aboutme h1{
     color: white;
+    font-size: 30px;
+  }
+
+
+  .about-content{
+    color: white;
+    font-family: 'Amiko';
+    width: 90%;
+    margin: auto;
+  }
+
+}
+
+@media only screen and (min-width: 800px) {
+
+  .image-mhamza{
+    width: 100%;
+    margin: auto;
+  }
+
+  .mhamza-image{
+    width: 30%;
+  }
+
+  .aboutme{
+    text-align: center;
+
+  }
+
+  .aboutme h1{
+    color: white;
+    font-size: 30px;
+  }
+
+  .about-content{
+    color: white;
+    font-family: 'Amiko';
+    width: 70%;
+    margin: auto;
+  }
+
 }
